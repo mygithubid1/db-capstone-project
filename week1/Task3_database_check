@@ -1,0 +1,32 @@
+mysql> SHOW DATABASES;
++--------------------+
+| Database           |
++--------------------+
+| LittleLemonDB      |
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+5 rows in set (0.01 sec)
+
+mysql> USE LittleLemonDB;
+Database changed
+mysql> SHOW TABLES;
++-------------------------+
+| Tables_in_LittleLemonDB |
++-------------------------+
+| Bookings                |
+| Customers               |
+| MenuItems               |
+| Menus                   |
+| MenusAndMenuItems       |
+| OrderDeliveryStatus     |
+| Orders                  |
+| Staffs                  |
++-------------------------+
+8 rows in set (0.00 sec)
+
+mysql> 
+
+
